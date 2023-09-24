@@ -1,0 +1,3 @@
+//.ENV
+//En dado caso que la API_KEY no se encuentre, debe de configurarse. (GitHub suele borrar la KEY)
+//const API_KEY="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";

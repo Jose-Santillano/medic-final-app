@@ -1,3 +1,10 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;1,900&display=swap');
+* {
+  font-family: Nunito;
+  font-weight: 400;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -42,3 +49,58 @@
 }
 
 /* Customize styles */
+
+/* CHAT */
+
+/* PACIENTE */
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header{
+  font-size: calc(90% + 4rem);
+  color: black;
+}
+.header p{
+  margin: 0;
+  padding: 1rem;
+}
+.inputs{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 100%;
+}
+.input{
+  font-size: calc(90% + 1.5rem);
+  color: black;
+}
+.input input{
+  margin-left: 1.5rem;
+  background-color: rgb(183, 181, 181);
+  width: 60%;
+  padding: 1rem;
+  border: solid 1px;
+  border-radius: 15px;
+  border: none;
+  color: black;
+  font-size: 1.5rem;
+}
+.button{
+  margin-top: 1rem;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  background-color: rgb(15, 95, 206);
+  border-radius: 15px;
+  color: white;
+}
+
+/* APP */
+.navigation{
+  width: 100vw;
+  background-color: red;
+}
+
+/* Monitor */

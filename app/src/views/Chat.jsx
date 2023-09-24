@@ -6,7 +6,8 @@ import '@chatscope/chat-ui-kit-styles/dist/default/styles.min.css';
 import { MainContainer, ChatContainer, MessageList, Message, MessageInput, TypingIndicator } from '@chatscope/chat-ui-kit-react';  
 
 //.ENV
-const API_KEY="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";
+//En dado caso que la API_KEY no se encuentre, debe de configurarse. (GitHub suele borrar la KEY)
+
 
 function Chat() {
   const [typing, setTyping] = useState(false);
